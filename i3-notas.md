@@ -7,18 +7,19 @@
 #### Abrir aplicaciones
 
 - Abrir terminal $mod+Enter
-- Menú $mod+d (requiere conocer el nombre de la aplicación tal y como se lanza desde línea de comando)
+- Menú $mod+d (requiere conocer el nombre de la aplicación tal y como se lanza desde línea de comando). $mod+d muestra aplicaciones en el `$PATH`
 
 #### Ventanas
 
-- Cambiar el foco de ventana: $mod+{cursorp
+- Cambiar el foco de ventana: $mod+{cursor}
 - Mover la ventana $mod+Shift+{cursor}
+- Mover ventana a otro workspace $mod+Shift+{num-workspace}
 
 - Poner la ventana a pantalla completa $mod+f / Salir de pantalla completa $mod+f
 
 - Dividir ventana verticalmente (antes de abrir nueva ventana) $mod+v (en horizontal $mod+h)
 - cambiar tamaño de una ventana $mod+r (seguido de los cursores)
-- Cerrar una ventana: $mod+Shift+q
+- Cerrar una ventana: $mod+Shift+q (también se puede usar Ctrl+w, que suele ser nativo de las aplicaciones)
 
 - Convertir una ventana en "flotante": $mod+Shift+{espacio} (al repetir la combinación se vuelve a la cuadrícula)
 
