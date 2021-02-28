@@ -57,6 +57,20 @@ La configuración de la barra de estado se encuentra en la sección `bar`. En `s
 
 En esta sección también se puede cambiar la posición de la barra.
 
+## Personalización
+
+### Cambiar el tamaño de la letra en monitores con HiDPI
+
+La documentación oficial en [i3wm: 8.3. High-resolution displays (aka HIDPI displays)](https://i3wm.org/docs/userguide.html#hidpi) apunta al Wiki de ArchLinux: <https://wiki.archlinux.org/index.php/HiDPI>, aunque sin más detalles.
+
+La sección aplicable a i3 es la de [X Resources](https://wiki.archlinux.org/index.php/HiDPI#X_Resources).
+
+Para realizar la configuración de i3 de forma que el tamaño de la fuente no sea diminito, consiste en dos pasos:
+
+1. Crear el fichero `~/.Xresources` y añadir la línea `Xft.dpi: 192`.
+1. Ejecutar el comando `xrdb -merge ~/.Xresources` para que la configuración se cargue al arrancar el entorno gráfico (X) en `~/.xinitrc`.
+
+> La modificación de `Xft.dpi` puede hacer que algunos elementos de las interfaces sean mucho mayores de lo que deberían en algunas aplicaciones (como por ejemplo Firefox).
 
 ## Open Issues
 
