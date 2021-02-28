@@ -11,8 +11,8 @@
 
 #### Ventanas
 
-- Cambiar el foco de ventana: $mod+<cursor>
-- Mover la ventana $mod+Shift+<cursor>
+- Cambiar el foco de ventana: $mod+{cursorp
+- Mover la ventana $mod+Shift+{cursor}
 
 - Poner la ventana a pantalla completa $mod+f / Salir de pantalla completa $mod+f
 
@@ -20,7 +20,7 @@
 - cambiar tamaño de una ventana $mod+r (seguido de los cursores)
 - Cerrar una ventana: $mod+Shift+q
 
-- Convertir una ventana en "flotante": $mod+Shift+<espacio> (al repetir la combinación se vuelve a la cuadrícula)
+- Convertir una ventana en "flotante": $mod+Shift+{espacio} (al repetir la combinación se vuelve a la cuadrícula)
 
 - Cambiar el modo en el que se muestran las ventanas:
   - Como pestañas: $mod+w
@@ -29,7 +29,7 @@
 
 #### Workspaces
 
-- Cambiar de Workspace: $mod+<número de workspace>
+- Cambiar de Workspace: $mod+{número de workspace}
 
 #### Cambios en i3
 
@@ -64,14 +64,14 @@ En esta sección también se puede cambiar la posición de la barra.
 
 Al parecer hay algunos resultados al buscar en Google. Tengo que mirarlo con más detalle.
 
-> Temporalmente he aumentado el tamaño de la fuente en el editor del sistema.
+} Temporalmente he aumentado el tamaño de la fuente en el editor del sistema.
 
 En la configuración de i3, el tamaño y fuente de los títulos de las ventanas se puede configurar mediante:
 
 ```config
 font pango:monospace 14
 ```
-   
-Application launcher -> rofi
-Flameshoot -> screenshot
-dunst -> notificaciones
+
+Application launcher -} rofi
+Flameshoot -} screenshot
+dunst -} notificaciones
